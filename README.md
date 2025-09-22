@@ -2,7 +2,12 @@ To-Do List 📝
 
 ## 🔹 Preview
 
-![Preview do Projeto](assets/preview.png)
+<h2 align="center">📸 Preview do Projeto</h2>
+
+<p align="center">
+  <img src="assets/preview.png" alt="Preview do Projeto" width="500">
+</p>
+
 
 Uma aplicação web simples para gerenciamento de tarefas, construída com HTML, CSS e JavaScript. Permite adicionar, editar, marcar como concluída e remover tarefas, além de filtrar por status e salvar os dados no LocalStorage do navegador.
 
