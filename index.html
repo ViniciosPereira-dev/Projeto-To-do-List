@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2 id="tittle">
+                To-Do List 
+                <span><i class="fa-solid fa-list-check" id="i-titlle"></i></span>
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Adicione sua tarefa.." maxlength="40">
+                <button id="btn-add" title="adicionar taréfa"><i class="fa-solid fa-circle-plus"></i></button>
+            </div>
+
+            <select id="categorias">
+                <option value="todos">Todos</option>
+                <option value="feito">Concluida</option>
+                <option value="pendente">Pendente</option>
+            </select>   
+
+<div id="contadores">
+    <div>
+        <span id="Concluidas"><i class="fa-solid fa-check"></i> Concluídas</span>
+        <span id="Pendentes"><i class="fa-regular fa-clock"></i> Pendentes</span>
+        <button id="reset" title="Resetar"><i class="fa-solid fa-rotate-right"></i></button>
+    </div>
+    <span>
+
+    </span>
+</div>
+
+
+            <ul id="list"></ul> 
+
+        </div>
+    </div>
+</body>
+</html>
