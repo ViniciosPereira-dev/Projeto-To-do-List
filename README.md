@@ -8,12 +8,10 @@ To-Do List 📝
   <img src="assets/preview.png" alt="Preview do Projeto" width="500">
 </p>
 
-## 🚀 Acesse o projeto online
-
-🔗 [Clique aqui para acessar o site](https://viniciospereira-dev.github.io/Projeto-To-do-List/)
-
-
 Uma aplicação web simples para gerenciamento de tarefas, construída com HTML, CSS e JavaScript. Permite adicionar, editar, marcar como concluída e remover tarefas, além de filtrar por status e salvar os dados no LocalStorage do navegador.
+
+## 🚀 Acesse o projeto online
+🔗 [Clique aqui para acessar o site](https://viniciospereira-dev.github.io/Projeto-To-do-List/)
 
 🔹 Funcionalidades
 
